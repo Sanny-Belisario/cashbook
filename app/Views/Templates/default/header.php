@@ -9,6 +9,6 @@
     <body>
         <header>
             <?php
-                require_once base_url ()."/app/Views/Templates/default/nav.php";
+                require_once "nav.php";
             ?>
         </header>
