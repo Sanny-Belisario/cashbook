@@ -12,17 +12,17 @@
           <a class="nav-link active" aria-current="page" href="<?php echo base_url () ?>">Home</a>
         </li>
         <li class="nav-item"> 
-          <a class="nav-link" href="<?php echo base_url () ?>moviments">Moviment</a>
+          <a class="nav-link" href="<?php echo base_url () ?>/moviments">Moviment</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo base_url () ?>reports">Reports</a>
+          <a class="nav-link" href="<?php echo base_url () ?>/reports">Reports</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="<?php echo base_url () ?>users" >Users</a>
+          <a class="nav-link " href="<?php echo base_url () ?>/users" >Users</a>
         </li>
       </ul>
       <span class="navbar-text">
-        <a href="<?php echo base_url ()  ?>users/logout" title="<?php //echo $_SESSION['user']['name'] ?>">
+        <a href="<?php echo base_url ()  ?>/logout" title="<?php //echo $_SESSION['user']['name'] ?>">
             <i class="bi-person" style="color:#F00"></i>
         </a>
         

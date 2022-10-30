@@ -53,4 +53,21 @@ class View extends BaseView
      * @var class-string<ViewDecoratorInterface>[]
      */
     public array $decorators = [];
+
+    /**
+     * $show()
+     * Exibe o conteúdo ao usuário
+     * @access public
+     * @param String
+     * @param Array
+     */
+    public function show($content,$data){
+        
+        if(empty($this->template)){
+           $this->template='default'; 
+        }
+      
+        include base_url()."app/Views/Templates/default/index.php";
+
+    }
 }

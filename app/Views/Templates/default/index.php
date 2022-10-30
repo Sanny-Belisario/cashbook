@@ -4,7 +4,7 @@
 <?= $this->section('content') ?>
 <?php
 include "header.php";
-include "main.php";
+$this->renderSection('main');
 include "footer.php";
 ?>
 <?= $this->endSection() ?>

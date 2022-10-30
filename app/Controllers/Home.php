@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('Templates/default/index');
+        $model = model("MovimentsModel");
+        $moviments['moviments'] = $model->dashboard();
+        return view('home/home', $moviments);
     }
 }

@@ -23,18 +23,18 @@
     <div class="row d-flex justify-content-center align-items-center h-100">
       
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-        <form action="<?php echo base_url()?>users/auth" method="POST">
+        <form action="<?php echo base_url()?>/auth" method="POST">
           
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <input type="email" name="user[email]" class="form-control form-control-lg"
+            <input type="email" name="email" class="form-control form-control-lg"
               placeholder="Enter a valid email address" />
             <label class="form-label">Email address</label>
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-3">
-            <input type="password" name="user[password]" class="form-control form-control-lg"
+            <input type="password" name="password" class="form-control form-control-lg"
               placeholder="Enter password" />
             <label class="form-label">Password</label>
           </div>
