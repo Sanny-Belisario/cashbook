@@ -56,4 +56,9 @@ class MovimentsModel extends Model
 		// };
         return $array;
     }
+
+    // public function add($data){
+    //     $sql = "INSERT INTO moviment (date, description, value, type, user_id) VALUE (?, ?, ?, ?, 1)"; 
+    //     $result = $this->db->query($sql, [$data->date, $data['description'], $data['value'], $data['type']]);
+    // }
 }

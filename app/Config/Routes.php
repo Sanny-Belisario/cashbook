@@ -40,6 +40,8 @@ $routes->get('login', 'UserController::login');
 $routes->get('logout', 'UserController::logout');
 $routes->get('moviments', 'MovimentsController::index');
 $routes->post('auth', 'UserController::auth');
+$routes->post('moviments/save', 'MovimentsController::add');
+$routes->get('moviments/add', 'MovimentsController::form');
 $routes->get('moviments/pdf', 'Relatorio::index');
 
 /*
